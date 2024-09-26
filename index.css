@@ -1,0 +1,45 @@
+.container {
+                         margin-bottom: 80px;
+                         margin-top: 20px;
+                       }
+                       
+                       .cardList {
+                         display:flex;
+                         flex-wrap: wrap;
+                         gap: 4%;
+                         border: 1px solid red;
+                       }
+                       
+                       .card {
+                         background-color: white;
+                         font-size: 20px;
+                         padding: 15px;
+                         border: 1px solid teal;
+                         border-radius: 4px;
+                         display: flex;
+                         flex-direction: column;
+                         
+                         gap: 20px;
+                       }
+                       
+                       .card:not(:last-child){
+                         margin-bottom: 16px;
+                       }
+                       
+                       .card-item:not(:last-child){
+                         margin-bottom: 20px;
+                         border: 1px solid blue;
+                       }
+                       
+                       .card-title {
+                         margin: 0;
+                         color: #1c1c1c;
+                         font-size: 20px;
+                       }
+                       
+                       .card-description {
+                         font-size: 15px;
+                         color: #696969;
+                         line-height: 1.5;
+                       } 
+                       
